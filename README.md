@@ -1,3 +1,8 @@
+
+// it will return an obj with  number of occurences of char in string
+occurences = str1.split("").reduce((arr, cur) => { arr[cur] ? arr[cur]++ : arr[cur] = 1; return arr; }, {});
+
+
 # myPracticejs
 Array practiceArray.prototype.customInsert=function(val,callback){
   //your code here
