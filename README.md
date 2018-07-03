@@ -85,15 +85,5 @@ Array.prototype.customInsert=function(val,callback){
   }
  return customSort.filter((value,index)=>customSort.indexOf(value)===customSort.lastIndexOf(value));
 }
-ƒ (val,callback){
-  //your code here
-  var customSort = [];
-  this.push(val);
-  if(callback instanceof Function){
-    customSort = this.sort(callback);  
-  }else{
-    customSort = this.sort();
-  }
- ret…
-arr.customInsert(88,cussort);
-(4) [7, 8, 9, 10]
+
+arr.customInsert(88,cussort);   //(4) [7, 8, 9, 10]
