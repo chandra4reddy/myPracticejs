@@ -3,7 +3,8 @@ function isPalindrome(str) {
     str = str.replace(/s/g, '').toLowerCase();
     return (str == str.split('').reverse().join(''));
 }
-
+# Number polndrome
+Number(n.toString().split("").reverse().join("")) === n
 # it will return an obj with  number of occurences of char in string
 occurences = str1.split("").reduce((arr, cur) => { arr[cur] ? arr[cur]++ : arr[cur] = 1; return arr; }, {});
 
